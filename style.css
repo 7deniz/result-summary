@@ -1,0 +1,126 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(234, 85%, 45%);
+  width: 14rem;
+  height: 20rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 2rem;
+  /* justify-content: center; */
+}
+
+.your {
+  margin: 1rem;
+  color: hsl(241, 100%, 89%);
+}
+.seventy-six {
+  display: flex;
+  flex-direction: column;
+
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.seventy {
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.of {
+  margin-bottom: 1rem;
+  color: hsl(241, 100%, 89%);
+}
+.great {
+  color: #fff;
+}
+.text {
+  color: hsl(241, 100%, 89%);
+  font-size: 14px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+
+  width: 14rem;
+  height: 20rem;
+  margin-left: 1rem;
+}
+.summary {
+  margin: 1rem;
+  font-weight: bold;
+}
+.notes {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.127);
+  color: hsl(0, 100%, 67%);
+  margin: 6px;
+  margin-left: 4px;
+  padding-top: 8px;
+  height: 2rem;
+  border-radius: 6px;
+}
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.126);
+  color: hsl(39, 100%, 56%);
+  margin: 6px;
+  margin-left: 4px;
+  padding-top: 8px;
+  height: 2rem;
+  border-radius: 6px;
+}
+ion-icon {
+  font-size: 12px;
+  margin: 4px;
+  vertical-align: middle;
+}
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.125);
+  color: hsl(166, 100%, 37%);
+  margin: 6px;
+  margin-left: 4px;
+  padding-top: 8px;
+  height: 2rem;
+  border-radius: 6px;
+}
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.129);
+  color: hsl(234, 85%, 45%);
+  margin: 6px;
+  margin-left: 4px;
+  padding-top: 8px;
+  height: 2rem;
+  border-radius: 6px;
+}
+button {
+  background-color: black;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 8px;
+  margin-top: 1rem;
+}
